@@ -9,7 +9,8 @@
   "sourceURL": "https://ratterau.github.io/apps/source.json",
   "featuredApps": [
     "app.contrail.ios",
-    "com.adelaidetransit.app"
+    "com.adelaidetransit.app",
+    "app.alembic.ios"
   ],
   "apps": [
     {
@@ -126,6 +127,40 @@
       "versionDescription": "Install with LiveContainer: + → Install from URL with the link in the README. See Install it.\n\nAdelaideTransit.ipa is unsigned (LiveContainer signs it). It does not include the bus-details card; build from source for that. iOS 26 or newer. There is no Android version.\n\nWhat's new\n• Only buses you can catch. Services that end at a stop, or only drop people off there, are no longer listed as departures. At a terminus that was half the board. Applies after the app's automatic timetable re-download.\n• No countdowns for buses that have gone. A bus that passed your stop, even ahead of schedule, reads \"Departed\".\n• \"Due\" instead of vanishing. A bus just past its predicted minute but still on its way stays in the list.\n• Old live times say so. \"Live times last updated N ago\" when predictions stop arriving.\n• Favourites work offline after hours away, instead of reading \"No departures\".\n• Alerts keep refreshing during a session, show \"Until\" dates and drop off when they end.\n• Less data. The app follows the feed's new one-minute prediction cadence and checks a 256-byte header before downloading.\n• VoiceOver labels for map markers, stop pins, departure rows and favourites.\n• Settings shows when the timetable was downloaded; an empty stop says \"No departures in the next …\".",
       "downloadURL": "https://github.com/RatterAU/AdelaideTransit/releases/download/v1.1/AdelaideTransit.ipa",
       "size": 4817459
+    },
+    {
+      "name": "Alembic",
+      "bundleIdentifier": "app.alembic.ios",
+      "developerName": "RatterAU",
+      "subtitle": "yt-dlp, on your iPhone.",
+      "localizedDescription": "The real yt-dlp running on your phone, with FFmpeg built in and a native interface. Pick a preset or any exact video and audio stream (AV1 with Opus, H.264 with AAC, anything yt-dlp finds), choose the container, trim a section, embed cover art and metadata, and save to the Files app.\n\nyt-dlp updates itself from its official GitHub releases, and every update is checked against yt-dlp's release signature before it's used. No accounts, no ads, no tracking.",
+      "iconURL": "https://ratterau.github.io/apps/icons/alembic.png",
+      "tintColor": "BF5AF2",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-15T07:34:15Z",
+          "localizedDescription": "yt-dlp and FFmpeg as an iPhone app. Paste a link, pick exactly what you want, and it's saved on your phone.\n• Any site yt-dlp supports, with quality, codec, container and exact-stream choices\n• Audio only: M4A, MP3, Opus, FLAC or WAV\n• Clips by time or chapter, playlists and channels, up to five downloads at once\n• Cover art, metadata, chapters and subtitles written into the file\n• SponsorBlock cuts out sponsors with no re-encoding and the audio still in sync\n• A library with Apple's player, Save to Photos, and lossless MKV/WebM to MP4\n• yt-dlp updates itself, only from signature-checked official releases\n\nInstall: in LiveContainer, add the source at https://ratterau.github.io/apps/ or use Install from URL with this release's Alembic.ipa. Needs iOS 26 or newer.",
+          "downloadURL": "https://github.com/RatterAU/Alembic/releases/download/v1.0/Alembic.ipa",
+          "size": 18488770,
+          "sha256": "4b9ab8b0637577b88f3e474f5f8d831a8067b5d4ae1cba705ccd39f56f790494",
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Alembic saves videos you choose to your photo library."
+        }
+      },
+      "version": "1.0",
+      "versionDate": "2026-11-15T07:34:15Z",
+      "versionDescription": "yt-dlp and FFmpeg as an iPhone app. Paste a link, pick exactly what you want, and it's saved on your phone.\n• Any site yt-dlp supports, with quality, codec, container and exact-stream choices\n• Audio only: M4A, MP3, Opus, FLAC or WAV\n• Clips by time or chapter, playlists and channels, up to five downloads at once\n• Cover art, metadata, chapters and subtitles written into the file\n• SponsorBlock cuts out sponsors with no re-encoding and the audio still in sync\n• A library with Apple's player, Save to Photos, and lossless MKV/WebM to MP4\n• yt-dlp updates itself, only from signature-checked official releases\n\nInstall: in LiveContainer, add the source at https://ratterau.github.io/apps/ or use Install from URL with this release's Alembic.ipa. Needs iOS 26 or newer.",
+      "downloadURL": "https://github.com/RatterAU/Alembic/releases/download/v1.0/Alembic.ipa",
+      "size": 18488770
     }
   ],
   "news": []
