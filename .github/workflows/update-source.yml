@@ -1,0 +1,39 @@
+name: Update source
+
+# Rebuilds source.json and index.html from each app's GitHub releases.
+on:
+  schedule:
+    - cron: '23 */6 * * *'   # every 6 hours, so new releases appear on their own
+  workflow_dispatch:          # run by hand from the Actions tab
+  repository_dispatch:
+    types: [app-released]     # app repos can ping this when they publish
+  push:
+    branches: [main]
+    paths: ['config/**', 'scripts/**', 'icons/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-source
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Build source from releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_source.py
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- source.json index.html; then
+            echo "No changes"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add source.json index.html
+          git commit -m "Update source from latest releases"
+          git push
