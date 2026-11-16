@@ -33,6 +33,16 @@
       ],
       "versions": [
         {
+          "version": "0.8",
+          "buildVersion": "8",
+          "date": "2026-11-16T10:29:50Z",
+          "localizedDescription": "Restricted airspace, both apps. Turn on Restricted airspace in Map layers to see Australia's restricted (red), danger (orange) and military (purple) areas, as CASA declared them in June 2025. Tap the map where areas are to list every area stacked there, lowest first: how high it goes, when it's used, whether you can usually get a clearance through, and who controls it.\n\nMost areas are switched on by NOTAM, which the app can't check, so it never says an area is active. The areas may have changed since June 2025. Not for navigation.\n\nUpdating: install app-release.apk over the top on Android, or update from the source in LiveContainer. Settings are kept.",
+          "downloadURL": "https://github.com/RatterAU/Contrail/releases/download/v0.8/Contrail.ipa",
+          "size": 2389096,
+          "sha256": "851ab1546b3808dff7f28ce13624335ae588a85d9f5c3a0181d4424565330515",
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7",
           "buildVersion": "7",
           "date": "2026-11-12T15:21:45Z",
@@ -81,11 +91,11 @@
           "NSMotionUsageDescription": "Sky view and Near you use the compass to show which way to look."
         }
       },
-      "version": "0.7",
-      "versionDate": "2026-11-12T15:21:45Z",
-      "versionDescription": "Following a plane works properly and costs far less battery. The traffic around a followed plane keeps refreshing (on Android it stopped; on iPhone it refreshed every second). On Android, following at country zoom went from 65% of a CPU core to 11%.\n\nAccessibility, both apps. TalkBack and VoiceOver read each figure with its name (\"Altitude, 35,000 ft\"), and buttons and headings are announced as such. Text fits at large font sizes. With Reduce motion on, the map jumps instead of flying, the rain radar holds its latest frame, and the wind streaks stay still.\n\nFixes\n• Android: the Automatic clock now follows the phone's 12/24-hour setting.\n• Android: card text in dark mode is white again, not grey.\n• Android: a failed OpenSky lookup is retried instead of hiding the plane's earlier path for the session.\n• iPhone: route codes and airport temperature grow with the text size.\n\nUpdating: install app-release.apk over the top on Android, or Install from URL again in LiveContainer. Settings are kept.",
-      "downloadURL": "https://github.com/RatterAU/Contrail/releases/download/v0.7/Contrail.ipa",
-      "size": 2227128
+      "version": "0.8",
+      "versionDate": "2026-11-16T10:29:50Z",
+      "versionDescription": "Restricted airspace, both apps. Turn on Restricted airspace in Map layers to see Australia's restricted (red), danger (orange) and military (purple) areas, as CASA declared them in June 2025. Tap the map where areas are to list every area stacked there, lowest first: how high it goes, when it's used, whether you can usually get a clearance through, and who controls it.\n\nMost areas are switched on by NOTAM, which the app can't check, so it never says an area is active. The areas may have changed since June 2025. Not for navigation.\n\nUpdating: install app-release.apk over the top on Android, or update from the source in LiveContainer. Settings are kept.",
+      "downloadURL": "https://github.com/RatterAU/Contrail/releases/download/v0.8/Contrail.ipa",
+      "size": 2389096
     },
     {
       "name": "Adelaide Transit",
