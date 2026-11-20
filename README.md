@@ -33,8 +33,6 @@ New to all of this? Each app's README has a full step-by-step guide to setting u
 
 | | App | |
 |:--:|:--|:--|
-| <img src="icons/contrail.png" width="56"> | **[Contrail](https://github.com/RatterAU/Contrail)** | A flight tracker with no ads, no paywalls and no nonsense. Tap a plane, know where it's going |
-| <img src="icons/adelaide-transit.png" width="56"> | **[Adelaide Transit](https://github.com/RatterAU/AdelaideTransit)** | Live tracking for every Adelaide Metro bus, tram and train. Do I need to leave now? |
 
 ## How it stays current
 

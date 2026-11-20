@@ -151,7 +151,7 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RatterAU's Apps</title>
-<meta name="description" content="Install Contrail, Adelaide Transit and more with LiveContainer, SideStore or AltStore.">
+<meta name="description" content="Install my apps with LiveContainer, SideStore or AltStore.">
 <style>
 :root {{ --bg:#F2F2F7; --card:#FFFFFF; --text:#1C1C1E; --dim:#6C6C70; --line:rgba(60,60,67,.14); --accent:#0A84FF; }}
 @media (prefers-color-scheme: dark) {{ :root {{ --bg:#000; --card:#1C1C1E; --text:#F2F2F7; --dim:#98989F; --line:rgba(235,235,245,.12); }} }}

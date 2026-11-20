@@ -11,43 +11,6 @@
   },
   "apps": [
     {
-      "repo": "RatterAU/Contrail",
-      "asset": "Contrail.ipa",
-      "name": "Contrail",
-      "subtitle": "See a plane, tap it, know where it's going.",
-      "description": "A flight tracker with no ads, no paywalls and no nonsense. Tap any plane to see where it came from, where it's going and exactly what it is: airline, aircraft type, registration, a credited photo of that very aircraft, altitude, speed and whether it's on autopilot.\n\n• Routes it can prove: checks the plane's real path before showing a route, and says when a listing is wrong\n• The whole flown path back to the runway, with an altitude and speed profile you can scrub\n• Two weeks of past flights for any plane, with replays at up to 1000×\n• Pilot weather: satellite clouds, turbulence, icing and storm warnings, winds aloft\n• Any airport live: weather, the runway in use, arrivals and departures\n• Planes near me, with which way to look\n\nNo ads, no accounts, no tracking. Your phone talks straight to free public feeds.",
-      "icon": "icons/contrail.png",
-      "tintColor": "0A84FF",
-      "category": "utilities",
-      "screenshots": [
-        "docs/screenshots/ios/route.png",
-        "docs/screenshots/ios/aircraft.png",
-        "docs/screenshots/ios/photo.png",
-        "docs/screenshots/ios/replay.png",
-        "docs/screenshots/ios/weather.png",
-        "docs/screenshots/ios/airport.png",
-        "docs/screenshots/ios/nearby.png"
-      ]
-    },
-    {
-      "repo": "RatterAU/AdelaideTransit",
-      "asset": "AdelaideTransit.ipa",
-      "name": "Adelaide Transit",
-      "subtitle": "Do I need to leave now?",
-      "description": "Live tracking for every Adelaide Metro bus, tram and train: where it actually is, not where it's scheduled.\n\n• Every tracked vehicle on the map, sliding between GPS updates\n• Countdowns and clock times, colour-coded for early, on time and late\n• Tells you plainly when you're too far away to make it on foot\n• Only shows services you can actually board at that stop\n• Favourites, alerts and full trip views\n\nNo accounts, no ads, no backend. Everything happens on your phone, straight from Adelaide Metro's public data.",
-      "icon": "icons/adelaide-transit.png",
-      "tintColor": "F99D1E",
-      "category": "utilities",
-      "screenshots": [
-        "docs/screenshots/map-live.png",
-        "docs/screenshots/departures.png",
-        "docs/screenshots/trip.png",
-        "docs/screenshots/favourites-live.png",
-        "docs/screenshots/stop-sheet-map.png",
-        "docs/screenshots/alerts.png"
-      ]
-    },
-    {
       "repo": "RatterAU/Alembic",
       "asset": "Alembic.ipa",
       "name": "Alembic",
